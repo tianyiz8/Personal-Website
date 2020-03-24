@@ -15,7 +15,7 @@ class Project extends Component {
                             This personal Website.
                         </CardText>
                         <CardActions border>
-                        <a href="https://www.linkedin.com/in/tianyi-zhou-967991193/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/tianyiz8/personal-website/tree/master" target="_blank" rel="noopener noreferrer">
                             <Button colored>GitHub Link</Button>
                         </a>
                         <a href="https://www.youtube.com/watch?v=HQnVfgG8Kvw" target="_blank" rel="noopener noreferrer">
