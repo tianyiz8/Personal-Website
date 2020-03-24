@@ -12,9 +12,9 @@ import Contact from './pages/contact/contact';
 import Resume from './pages/resume/resume';
 import { BrowserRouter, Route } from 'react-router-dom';
 const routing = () => (
-  <BrowserRouter basename={ process.env.PUBLIC_URL + '/' }>
+  <BrowserRouter>
     <div> 
-      <Route exact path= '/' component={Landing} />
+      <Route exact path= path= {process.env.PUBLIC_URL + '/'} component={Landing} />
       <Route path= {process.env.PUBLIC_URL + '/aboutMe'} component={App} />
       <Route path= {process.env.PUBLIC_URL + '/contact'} component={App} />
       <Route path= {process.env.PUBLIC_URL + '/project'} component={App} />
