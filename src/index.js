@@ -14,7 +14,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 const routing = () => (
   <BrowserRouter>
     <div> 
-      <Route exact path= path= {process.env.PUBLIC_URL + '/'} component={Landing} />
+      <Route exact path= {process.env.PUBLIC_URL + '/'} component={Landing} />
       <Route path= {process.env.PUBLIC_URL + '/aboutMe'} component={App} />
       <Route path= {process.env.PUBLIC_URL + '/contact'} component={App} />
       <Route path= {process.env.PUBLIC_URL + '/project'} component={App} />
