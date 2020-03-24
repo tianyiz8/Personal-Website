@@ -19,11 +19,11 @@ function App() {
         </Header>
         <Drawer title="Go to ...">
             <Navigation>
-                <a href="/landing">Profile</a>
-                <a href="/aboutMe">About Me</a>
-                <a href="/resume">Resume</a>
-                <a href="/project">Project</a>
-                <a href="/contact">Contact</a>
+                <Link href="/landing">Profile</Link>
+                <Link href="/aboutMe">About Me</Link>
+                <Link href="/resume">Resume</Link>
+                <Link href="/project">Project</Link>
+                <Link href="/contact">Contact</Link>
             </Navigation>
         </Drawer>
         <Content>
