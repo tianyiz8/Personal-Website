@@ -10,11 +10,11 @@ const Main = () => (
   <BrowserRouter basename={ process.env.PUBLIC_URL + '/' }>
     <div> 
       <Route exact path={process.env.PUBLIC_URL + '/'} component={Landing} />
-      <Route path= {process.env.PUBLIC_URL + '/aboutMe'}component={AboutMe} />
-      <Route path= {process.env.PUBLIC_URL + '/contact'}component={Contact} />
-      <Route path= {process.env.PUBLIC_URL + '/project'}component={Project} />
-      <Route path= {process.env.PUBLIC_URL + '/resume'}component={Resume} />
-      <Route path= {process.env.PUBLIC_URL + '/landing'}component={Landing} />
+      <Route path= {process.env.PUBLIC_URL + '/aboutMe'} component={AboutMe} />
+      <Route path= {process.env.PUBLIC_URL + '/contact'} component={Contact} />
+      <Route path= {process.env.PUBLIC_URL + '/project'} component={Project} />
+      <Route path= {process.env.PUBLIC_URL + '/resume'} component={Resume} />
+      <Route path= {process.env.PUBLIC_URL + '/landing'} component={Landing} />
     </div> 
   </BrowserRouter>
 )
