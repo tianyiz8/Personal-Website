@@ -14,16 +14,20 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 const routing = () => (
   <BrowserRouter basename={ process.env.PUBLIC_URL + '/'}>
     <Switch> 
-      <Route exact path={process.env.PUBLIC_URL + '/'} component={LandingPage} />
-      <Route path= {process.env.PUBLIC_URL + '/aboutMe'}component={AboutMe} />
-      <Route path= {process.env.PUBLIC_URL + '/contact'}component={Contact} />
-      <Route path= {process.env.PUBLIC_URL + '/project'}component={Project} />
-      <Route path= {process.env.PUBLIC_URL + '/resume'}component={Resume} />
-      <Route path= {process.env.PUBLIC_URL + '/landing'}component={LandingPage} />
+      <Route exact path={process.env.PUBLIC_URL + '/'} component={App} />
+      <Route path= {process.env.PUBLIC_URL + '/aboutMe'}component={App} />
+      <Route path= {process.env.PUBLIC_URL + '/contact'}component={App} />
+      <Route path= {process.env.PUBLIC_URL + '/project'}component={App} />
+      <Route path= {process.env.PUBLIC_URL + '/resume'}component={App} />
+      <Route path= {process.env.PUBLIC_URL + '/landing'}component={App} />
     </Switch> 
   </BrowserRouter>
 )
-ReactDOM.render(routing, document.getElementById('root')
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
