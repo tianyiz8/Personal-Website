@@ -7,7 +7,7 @@ import Contact from './contact/contact';
 import Resume from './resume/resume';
 
 const Main = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={ process.env.PUBLIC_URL + '/'}>
     <Switch> 
       <Route exact path="/" component={LandingPage} />
       <Route path="/aboutMe" component={AboutMe} />
