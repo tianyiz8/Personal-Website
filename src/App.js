@@ -4,6 +4,7 @@ import Particle from './component/particle/particle'
 import {Layout, Header,Navigation,Drawer,Content} from 'react-mdl';
 import Main from './pages/main'
 import Footer from './component/footer/footer'
+import { Link } from 'react-router-dom';
 function App() {
   return (
     <div style={{height: '800px', position: 'relative'}}>
@@ -19,11 +20,11 @@ function App() {
         </Header>
         <Drawer title="Go to ...">
             <Navigation>
-                <Link href="/landing">Profile</Link>
-                <Link href="/aboutMe">About Me</Link>
-                <Link href="/resume">Resume</Link>
-                <Link href="/project">Project</Link>
-                <Link href="/contact">Contact</Link>
+                <Link to="/landing">Profile</Link>
+                <Link to="/aboutMe">About Me</Link>
+                <Link to="/resume">Resume</Link>
+                <Link to="/project">Project</Link>
+                <Link to="/contact">Contact</Link>
             </Navigation>
         </Drawer>
         <Content>
