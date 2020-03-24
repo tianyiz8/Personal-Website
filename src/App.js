@@ -11,8 +11,8 @@ function App() {
     <Layout fixedHeader>
         <Header className = "header-color" transparent title={<span><span style={{ color: '#ddd', marginBottom: '0'}}></span><strong>Navigation</strong></span>}>
           <Navigation>
-            <Link to ="/landing">Profile</Link>
-            <Link to ="/aboutMe">About Me</Link>
+            <a href="/landing">Profile</a>
+            <a href="/aboutMe">About Me</a>
             <a href="/resume">Resume</a>
             <a href="/project">Project</a>
             <a href="/contact">Contact</a>
