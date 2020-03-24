@@ -11,16 +11,17 @@ import Project from './pages/project/project';
 import Contact from './pages/contact/contact';
 import Resume from './pages/resume/resume';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Landing from './pages/landingpage/landingpage';
 const routing = () => (
   <BrowserRouter basename={ process.env.PUBLIC_URL + '/'}>
-    <Switch> 
-      <Route exact path={process.env.PUBLIC_URL + '/'} component={App} />
-      <Route path= {process.env.PUBLIC_URL + '/aboutMe'}component={App} />
-      <Route path= {process.env.PUBLIC_URL + '/contact'}component={App} />
-      <Route path= {process.env.PUBLIC_URL + '/project'}component={App} />
-      <Route path= {process.env.PUBLIC_URL + '/resume'}component={App} />
-      <Route path= {process.env.PUBLIC_URL + '/landing'}component={App} />
-    </Switch> 
+    <div> 
+      <Route exact path={process.env.PUBLIC_URL + '/'} component={Landing} />
+      <Route path= {process.env.PUBLIC_URL + '/aboutMe'}component={AboutMe} />
+      <Route path= {process.env.PUBLIC_URL + '/contact'}component={Contact} />
+      <Route path= {process.env.PUBLIC_URL + '/project'}component={Project} />
+      <Route path= {process.env.PUBLIC_URL + '/resume'}component={Resume} />
+      <Route path= {process.env.PUBLIC_URL + '/landing'}component={Landing} />
+    </div> 
   </BrowserRouter>
 )
 ReactDOM.render(
