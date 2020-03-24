@@ -1,0 +1,16 @@
+h2 {
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    padding-top: 0%;
+}
+
+.description p {
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+.skill p {
+    margin-top: -1rem;
+    margin-left: 1rem;
+}
+
