@@ -6,10 +6,6 @@ import * as serviceWorker from './serviceWorker';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 import Landing from './pages/landingpage/landingpage';
-import AboutMe from './pages/aboutme/aboutme';
-import Project from './pages/project/project';
-import Contact from './pages/contact/contact';
-import Resume from './pages/resume/resume';
 import { BrowserRouter, Route } from 'react-router-dom';
 const routing = () => (
   <BrowserRouter>
@@ -24,9 +20,9 @@ const routing = () => (
   </BrowserRouter>
 )
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <App />
-  </React.StrictMode>,
+  </BrowserRouter>,
   document.getElementById('root'), routing
 );
 
