@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Particle from './component/particle/particle'
 import {Layout, Header,Navigation,Drawer,Content} from 'react-mdl';
-import Main from './pages/main'
 import Footer from './component/footer/footer';
 import {BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom';
 import Landing from './pages/landingpage/landingpage';
