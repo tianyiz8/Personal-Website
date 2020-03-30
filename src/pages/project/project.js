@@ -40,7 +40,7 @@ class Project extends Component {
                     <Card shadow={0} style={{width: '20rem', height: '20rem', margin: 'auto'}}>
                         <CardTitle style={{color: 'black', height: '176px', background: 'url(https://cdn4.iconfinder.com/data/icons/logos-3/426/react_js-512.png) center / cover'}}>To be continued ... </CardTitle>
                         <CardText>
-                            To be continue ...
+                            To be continued ...
                         </CardText>
                         <CardActions border>
                             <Button colored>GitHub Link</Button>
