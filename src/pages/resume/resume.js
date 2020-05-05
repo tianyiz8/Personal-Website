@@ -23,7 +23,7 @@ class Resume extends Component {
                   place="FACES Consulting"
                   position="Consultant"
                   address="Champaign, Illinois"
-                  time="02/2020 - Present"
+                  time="02/2020 - 04/2020"
                   />
                   <div className="description">
                     <p style={{paddingTop:"1.5rem", marginBottom:"0rem"}}>• Conduct market research and competitor analysis for a VR startup.</p>
@@ -71,7 +71,7 @@ class Resume extends Component {
                   <hr style={{width:'90%', marginTop:'0rem', marginLeft:'2%', marginBottom:'0rem'}}/>
                   <div className="skill">
                     <p style={{paddingTop:"1.5rem", marginBottom:"0rem",textAlign:"left"}}>• Certificate: Udemy: Real World Coding in HTML & CSS</p>
-                    <p style={{marginTop:"0rem", marginBottom:"0rem",textAlign:"left"}}>• Skill: Memorization (Memory Palace); React; html; CSS; Java; Microsoft Office; Python; SQL</p>
+                    <p style={{marginTop:"0rem", marginBottom:"0rem",textAlign:"left"}}>• Skill: Memorization (Memory Palace); JavaScript; React; React Native; Angular; Python; Java</p>
                     <p style={{marginTop:"0rem", marginBottom:"0rem",textAlign:"left"}}>• Honor: Dean’s List (FA 2019)</p>
                     <p style={{marginTop:"0rem", marginBottom:"-1rem",textAlign:"left"}}>• Language: Chinese (Native), English (Proficient), Spanish (basic)</p>
                   </div>
