@@ -24,7 +24,7 @@ class Project extends Component {
                         </CardActions>
                     </Card>
                     <Card shadow={0} style={{width: '20rem', height: '20rem', margin: 'auto'}}>
-                        <CardTitle style={{color: 'black', height: '176px', background: 'url(https://cdn4.iconfinder.com/data/icons/logos-3/426/react_js-512.png) center / cover'}}>Scribr (In progress)</CardTitle>
+                        <CardTitle style={{color: 'black', height: '176px', background: 'url(https://cdn4.iconfinder.com/data/icons/logos-3/426/react_js-512.png) center / cover'}}>Scribr</CardTitle>
                         <CardText>
                             The CS 196 Scribr project, using React and Flask.
                         </CardText>
@@ -32,7 +32,7 @@ class Project extends Component {
                         <a href="https://github.com/CS196Illinois/team3" target="_blank" rel="noopener noreferrer">
                           <Button colored>GitHub Link</Button>
                         </a>
-                        <a href="https://www.youtube.com/watch?v=mv16-z2bcug" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.youtube.com/watch?v=S3SepCcfXhE&t=46s" target="_blank" rel="noopener noreferrer">
                             <Button colored>Demo Video</Button>
                         </a>
                         </CardActions>
