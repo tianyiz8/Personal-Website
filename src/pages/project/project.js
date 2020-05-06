@@ -26,7 +26,7 @@ class Project extends Component {
                     <Card shadow={0} style={{width: '20rem', height: '20rem', margin: 'auto'}}>
                         <CardTitle style={{color: 'black', height: '176px', background: 'url(https://cdn4.iconfinder.com/data/icons/logos-3/426/react_js-512.png) center / cover'}}>Scribr</CardTitle>
                         <CardText>
-                            The CS 196 Scribr project, using React and Flask.
+                            The CS 196 Scribr project, using React and Flask frameworks.
                         </CardText>
                         <CardActions border>
                         <a href="https://github.com/CS196Illinois/team3" target="_blank" rel="noopener noreferrer">
