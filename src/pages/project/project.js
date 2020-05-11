@@ -38,13 +38,17 @@ class Project extends Component {
                         </CardActions>
                     </Card>
                     <Card shadow={0} style={{width: '20rem', height: '20rem', margin: 'auto'}}>
-                        <CardTitle style={{color: 'black', height: '176px', background: 'url(https://cdn4.iconfinder.com/data/icons/logos-3/426/react_js-512.png) center / cover'}}>To be continued ... </CardTitle>
+                        <CardTitle style={{color: 'black', height: '176px', background: 'url(https://cdn4.iconfinder.com/data/icons/logos-3/426/react_js-512.png) center / cover'}}>COVID19 TimerKiller</CardTitle>
                         <CardText>
-                            To be continued ...
+                            The CS 125 COVID19 TimeKiller project, using React Native framework.
                         </CardText>
                         <CardActions border>
-                            <Button colored>GitHub Link</Button>
+                        <a href="https://github.com/tianyiz8/timeKiller" target="_blank" rel="noopener noreferrer">
+                          <Button colored>GitHub Link</Button>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=TMPcqSrhGZU&t=116s" target="_blank" rel="noopener noreferrer">
                             <Button colored>Demo Video</Button>
+                        </a>
                         </CardActions>
                     </Card>
               </div>
