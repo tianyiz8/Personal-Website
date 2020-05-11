@@ -38,7 +38,7 @@ class Project extends Component {
                         </CardActions>
                     </Card>
                     <Card shadow={0} style={{width: '20rem', height: '20rem', margin: 'auto'}}>
-                        <CardTitle style={{color: 'black', height: '176px', background: 'url(https://cdn4.iconfinder.com/data/icons/logos-3/426/react_js-512.png) center / cover'}}>COVID19 TimerKiller</CardTitle>
+                        <CardTitle style={{color: 'black', height: '176px', background: 'url(https://cdn4.iconfinder.com/data/icons/logos-3/426/react_js-512.png) center / cover'}}>COVID19-TimerKiller</CardTitle>
                         <CardText>
                             The CS 125 COVID19 TimeKiller project, using React Native framework.
                         </CardText>
