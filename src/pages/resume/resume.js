@@ -20,6 +20,25 @@ class Resume extends Component {
                   <h3 style={{paddingTop:'4rem', marginLeft:'2%', marginBottom:'0rem'}}>Activities</h3>
                   <hr style={{width:'90%', marginTop:'0rem', marginLeft:'2%', marginBottom:'-2rem'}}/>
                   <Activity
+                  place="UIUC Department of Computer Science"
+                  position="Course Staff & Project Manager of CS196"
+                  address="Champaign, Illinois"
+                  time="05/2020 - Present"
+                  />
+                  <div className="description">
+                    <p style={{paddingTop:"1.5rem", marginBottom:"0rem",textAlign:"left"}}>• Rebuild official course website with Angular, and style the website with SCSS.</p>
+                  </div>
+                  <Activity
+                  place="UIUC Gies College of Business"
+                  position="Data Science Web Visualization Intern"
+                  address="Champaign, Illinois"
+                  time="05/2020 - Present"
+                  />
+                  <div className="description">
+                    <p style={{paddingTop:"1.5rem", marginBottom:"0rem",textAlign:"left"}}>• Visualize trade data among states across multiple dimensions using d3.js.</p>
+                    <p style={{marginTop:"0rem", marginBottom:"0rem",textAlign:"left"}}>• Integrate Choropleth Maps, Sankey Diagrams and other interactive graphs to the website.</p>
+                  </div>
+                  <Activity
                   place="FACES Consulting"
                   position="Consultant"
                   address="Champaign, Illinois"
@@ -30,18 +49,7 @@ class Resume extends Component {
                     <p style={{marginTop:"0rem", marginBottom:"0rem"}}>• Analyze the market trend and use data visualization tool to give a clear view.</p>
                     <p style={{marginTop:"0rem", marginBottom:"1rem"}}>• Identify the key area for improvement in the customer's current VR device.</p>
                   </div>
-                  <Activity
-                  place="Trueland LLC"
-                  position="Student Coordinator"
-                  address="Richmond, Virginia"
-                  time="08/2019"
-                  />
-                  <div className="description">
-                    <p style={{paddingTop:"1.5rem", marginBottom:"0rem"}}>• Translate ESL courses for over 30 Chinese exchange middle schools.</p>
-                    <p style={{marginTop:"0rem", marginBottom:"0rem"}}>• Organize and coordinate the commencement party which involved over 80 people.</p>
-                    <p style={{marginTop:"0rem", marginBottom:"0rem"}}>• Lead the student groups to Jamestown and introduce the overview of United States history.</p>
-                    <p style={{marginTop:"0rem", marginBottom:"1rem"}}>• Edit the program video.</p>
-                  </div>
+ 
                   <Activity
                   place="Career Development Organization"
                   position="Marketing Department Leader"
@@ -70,10 +78,8 @@ class Resume extends Component {
                   <h3 style={{paddingTop:'-2rem', marginLeft:'2%', marginBottom:'0rem', textAlign:"left"}}>Skills</h3>
                   <hr style={{width:'90%', marginTop:'0rem', marginLeft:'2%', marginBottom:'0rem'}}/>
                   <div className="skill">
-                    <p style={{paddingTop:"1.5rem", marginBottom:"0rem",textAlign:"left"}}>• Certificate: Udemy: Real World Coding in HTML & CSS</p>
-                    <p style={{marginTop:"0rem", marginBottom:"0rem",textAlign:"left"}}>• Skill: Memorization (Memory Palace); JavaScript; React; React Native; Angular; Python; Java</p>
-                    <p style={{marginTop:"0rem", marginBottom:"0rem",textAlign:"left"}}>• Honor: Dean’s List (FA 2019)</p>
-                    <p style={{marginTop:"0rem", marginBottom:"-1rem",textAlign:"left"}}>• Language: Chinese (Native), English (Proficient), Spanish (basic)</p>
+                    <p style={{marginTop:"0rem", marginBottom:"0rem",textAlign:"left"}}>• Languages: JavaScript; Python; Java; SQL; R</p>
+                    <p style={{marginTop:"0rem", marginBottom:"-1rem",textAlign:"left"}}>• Frameworks & Tools: React (Native); Angular; Nodejs; Express; Flask; MongoDB; Firebase</p>
                   </div>
                 </Cell>
               </Grid>

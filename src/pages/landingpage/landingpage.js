@@ -17,10 +17,10 @@ class Landing extends Component {
                     alt="kobe"
                     className= "kobe-img" style={{zIndex:"10"}}/>
                 <div data-aos="fade-up" data-aos-delay="800" data-aos-duration="1500" className="banner-text">
-                      <h1>Web Developer</h1>
+                      <h1>Full Stack Web Developer</h1>
                       <h2>Bryant Zhou</h2>
                      <hr/>
-                     <p>HTML | CSS | JavaScript | React</p>
+                     <p>React (Native) | Angular | Nodejs | d3.js | MongoDB | Firebase | Flask | JavaScript</p>
                 </div>
                 </Cell>
               </Grid>
