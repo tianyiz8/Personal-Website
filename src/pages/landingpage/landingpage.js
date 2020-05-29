@@ -20,7 +20,7 @@ class Landing extends Component {
                       <h1>Full Stack Web Developer</h1>
                       <h2>Bryant Zhou</h2>
                      <hr/>
-                     <p>React (Native) | Angular | Nodejs | d3.js | MongoDB | Firebase | Flask | JavaScript</p>
+                     <p>React (Native) | Angular | Nodejs | d3.js | MongoDB | Firebase | Flask | JavaScript | Python</p>
                 </div>
                 </Cell>
               </Grid>
